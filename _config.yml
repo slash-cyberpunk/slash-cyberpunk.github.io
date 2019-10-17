@@ -2,11 +2,14 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               SLASH_CyberPunk
+tagline:             "DevOps, DWH, Data lake and many others"
+url:                 https://slash-cyberpunk.github.io
 paginate:            1
 baseurl:             ""
+permalink:            /:year/:month/:day/:title/
+pagination: 100
+highlighter: rouge
 
 # Assets
 #
@@ -17,16 +20,16 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              SLASH_CyberPunk
+  url:               https://slash-cyberpunk.github.io
+  email:             slash.cyberpunk@gmail.com
 
 # Custom vars
 version:             2.0.0
-github:
+github:             
   repo:              https://github.com/poole/poole
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
